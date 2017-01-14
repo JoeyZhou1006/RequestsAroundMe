@@ -7,47 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0508905C3C14CABBE2FC1B2E8A85C70D /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9B48591B074BDDEC366482239CA8E9 /* disclosure.png */; };
-		1186C5682FAFB37E4385A320319FF2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		047A0780E925E11C35F509B531C46679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0508905C3C14CABBE2FC1B2E8A85C70D /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AF56782F289529A14D43CA8C72128 /* disclosure.png */; };
+		0A7C89C6A764B252DB36BBEBB834E944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		126497559A13DBF44A4772FE59850ACA /* CircleMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4447ACA5BBC114E70AE50388871612A4 /* CircleMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		191B42BA8E3242C3BCFB3F882E57508F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1B7E77B32AAE7899D7EF9B7AE2B077CC /* AnimatedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4562E1CB159233E4998DA4C7FF425C /* AnimatedLine.swift */; };
+		1B7E77B32AAE7899D7EF9B7AE2B077CC /* AnimatedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFE7333ECB9AFD6FF11381ACF6224C /* AnimatedLine.swift */; };
+		1BF40BA0DA48295217A5E3351BB487AA /* Pods-AroundMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 106DABADA84C0473065E986208E41FCC /* Pods-AroundMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F41C8526E4AEB648B9D2DB53DF9A9D5 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FFDAB70BE285212A364E65748EC02 /* UITextField+fixCaretPosition.swift */; };
 		220340A1F519C064F0298C980E9A13A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2919D752AD8350834776A4A6C043663B /* Pods-AroundMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5974CA912C7C2C2319823E2C582A093E /* Pods-AroundMe-dummy.m */; };
-		29EE5DFEEC29160DC0405492746E8A4B /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286C036D77F7EBF7DCC2A8AC3854BA2A /* UIViewExtensions.swift */; };
-		34B195C00E59064A5054E9D72AFDF996 /* cm_icon_input_eye_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF422C083E240DA9E282621BB7E47CE /* cm_icon_input_eye_selected@2x.png */; };
-		4786D88A67415447380B745C1E442C0B /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6C8444A12F2ADCD31BA2771419439 /* SkyFloatingLabelTextField-dummy.m */; };
-		51FE6330A24B58B972B11B060DB321DF /* AnimatedTextInput.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F305708893C96D8AE1E7DCB891335 /* AnimatedTextInput.bundle */; };
-		5FF1ABB3570F81A8C5AECEC22F7DE058 /* Pods-AroundMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 106DABADA84C0473065E986208E41FCC /* Pods-AroundMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6582022FABF8C367C4BF6BDBE005C1C5 /* disclosure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DC4FCD0F89FFE005DCCB34866C3871 /* disclosure@3x.png */; };
-		6E2AA015BEAC3885984D1305EB0A64C6 /* AnimatedTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469D4BA9784EB26C96D3F9C1F7C23D6 /* AnimatedTextInput.swift */; };
-		6EE92F67E05C728312C34F81E9E6BF4F /* cm_icon_input_eye_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9708807DB7A92A2C54536FC3FA747010 /* cm_icon_input_eye_normal@2x.png */; };
+		29EE5DFEEC29160DC0405492746E8A4B /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DD254B2729DE7F6302CB0914C031DF /* UIViewExtensions.swift */; };
+		34B195C00E59064A5054E9D72AFDF996 /* cm_icon_input_eye_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05B4D81CA74BD357D6AA591FB4D38478 /* cm_icon_input_eye_selected@2x.png */; };
+		3DD8CAA7CBB4F9B90855F31858D30924 /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8C40143F13310DEDD765817C37AB7 /* CircleMenuLoader.swift */; };
+		40AA5F3BD824822FC3A3590A53DDF692 /* Pods-AroundMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5974CA912C7C2C2319823E2C582A093E /* Pods-AroundMe-dummy.m */; };
+		51FE6330A24B58B972B11B060DB321DF /* AnimatedTextInput.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 478E7C11D781618397F725D7728BAE8E /* AnimatedTextInput.bundle */; };
+		54C99DBD41139574C22E2354F63F7FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5E6D63929C555092395F0536F960D1C4 /* CircleMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F27B56DABF42A63C7702F09AD2CACA13 /* CircleMenu-dummy.m */; };
+		6582022FABF8C367C4BF6BDBE005C1C5 /* disclosure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D001A1C37FBD60E75EE08EE0C0E32A9B /* disclosure@3x.png */; };
+		6E2AA015BEAC3885984D1305EB0A64C6 /* AnimatedTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB83BBCCFAF76FD943CA09D6108C6B1 /* AnimatedTextInput.swift */; };
+		6EE92F67E05C728312C34F81E9E6BF4F /* cm_icon_input_eye_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6463C04C433C6A989CA9FED8543676E7 /* cm_icon_input_eye_normal@2x.png */; };
 		76FAEF510B62B5C3EDB5BCB0FC359BAB /* Pods-AroundMeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EFB4E19355EA9E63A603F5D7EA412A /* Pods-AroundMeTests-dummy.m */; };
-		77EE9D2CDCBB8C464C4A189DC248FBE6 /* AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE40B729DEDCC9E0B15AE6904274917 /* AnimatedTextView.swift */; };
+		77EE9D2CDCBB8C464C4A189DC248FBE6 /* AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F272C847FCF1B575A699187B9EF8CC /* AnimatedTextView.swift */; };
 		7BAF480E237592104E85FBC18CEFEAC3 /* Pods-AroundMeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B96E1F6AF223291E08D67A7E3F902A /* Pods-AroundMeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88BF95742340069C38EA4B5839C405BD /* AnimatedTextInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A243123B73DD5E8C1FA3F4F423694395 /* AnimatedTextInputStyle.swift */; };
-		99B7E92D04CF65AE9314605CF760B8B2 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70C1ADCA778F19CA0437C94FDC6E485 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		A47A21B5E459D9A044729BC0BF22DBD0 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3F9308D3DA9AC50D75504AC66BEEB1 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BF95742340069C38EA4B5839C405BD /* AnimatedTextInputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56B3AE2DBB6F6710F7E132B5586E09 /* AnimatedTextInputStyle.swift */; };
+		8F418BCF1151FB34F297F908475B048D /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B150CE3BD34B6E50D238820CF02803C /* CircleMenuButton.swift */; };
+		A84D21E7D8766771DE196A766D4EA4F9 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FCB6B16D6C3822E7FF906DB33296D1 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
 		B163E9DC62C5C5B53DDCC907E9BA9EFA /* Pods-AroundMeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 105C9A019306C297AB084A67F9601C3C /* Pods-AroundMeUITests-dummy.m */; };
 		B3EB64120CCF71ACFD11A3F1BF7A046C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BFDC8826A71C26917CF056FC12CAD48E /* cm_icon_input_eye_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D27350293A5A8075C9EC38CE8435B8D9 /* cm_icon_input_eye_selected@3x.png */; };
-		CB22F57C9B275781903EAC0DE1014D77 /* AnimatedTextInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F391C99094A01C42BF7D0CCCF875CF4 /* AnimatedTextInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3A37D0988A2455A5EC60CD2B2741900 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C11117FD93A544E0A1B29DEF6BA717 /* UITextField+fixCaretPosition.swift */; };
-		D79847573F0ABCB6332BCD19C16EA010 /* cm_icon_input_eye_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF9B8B9E896E11AF5F004125D7D4D1 /* cm_icon_input_eye_normal@3x.png */; };
-		D93326684FB668EC0783DFBC90594036 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6287F8BFBB9BED0BC4135BC3BDAA2F2D /* SkyFloatingLabelTextField.swift */; };
-		E438F9E9DB52A68935B525F3C63B2482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EA3A7EB5AC6CA7534425F6A893E48072 /* AnimatedTextInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1263B8B19BE9B21876519B1C5CCD1FDF /* AnimatedTextInput-dummy.m */; };
-		EADD570E11FCB7466E86B6F3D447CA71 /* AnimatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E07EFA662F05BED591362FF03D721 /* AnimatedTextField.swift */; };
+		BFDC8826A71C26917CF056FC12CAD48E /* cm_icon_input_eye_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD7987DE9FEA7928C1D31C4445F2965 /* cm_icon_input_eye_selected@3x.png */; };
+		CB22F57C9B275781903EAC0DE1014D77 /* AnimatedTextInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CAED8DEA83E8E51FD56954D7FDECFF /* AnimatedTextInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC8FC4A3321340F48708DCECA1B0EB7 /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584A2958DF2B685617EF43AF366FA0EF /* CircleMenu.swift */; };
+		D5BAD6A3A2ACBF1976074F6DD282AA41 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F931DC4699CC43483F4EAE3C55BE60 /* SkyFloatingLabelTextField-dummy.m */; };
+		D79847573F0ABCB6332BCD19C16EA010 /* cm_icon_input_eye_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F32A96BDBB7AC133E427C3D5255D429D /* cm_icon_input_eye_normal@3x.png */; };
+		EA35B75051A416143D401FA828234553 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5D300A8725DBD965AE578DE91EF26 /* SkyFloatingLabelTextField.swift */; };
+		EA3A7EB5AC6CA7534425F6A893E48072 /* AnimatedTextInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6E8DE06B44917F1BF73645884F3965 /* AnimatedTextInput-dummy.m */; };
+		EADD570E11FCB7466E86B6F3D447CA71 /* AnimatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375F6A743FB2EC0D650282E5D14CD0B6 /* AnimatedTextField.swift */; };
 		F0805551871FC6CF2060829A776E8B4D /* Pods-AroundMeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E3D225F5698D6E75F7540725B3987C /* Pods-AroundMeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1571870943AF8DEBF3C95CFC541336B /* AnimatedTextInputFieldConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2F231219E5CBED68478D24CBEEDEAE /* AnimatedTextInputFieldConfigurator.swift */; };
-		F75BB1EDE157F45C0AD334DF0ABDEDDC /* disclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0C3CC95EFCEBD8AF1024ADCCA40C10 /* disclosure@2x.png */; };
+		F1571870943AF8DEBF3C95CFC541336B /* AnimatedTextInputFieldConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6DA9440596A7335765B6D4CDD5BB87 /* AnimatedTextInputFieldConfigurator.swift */; };
+		F6F1160ED7F706251D90F13D63D4DA8D /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 282B47DB6971850C8F117F2318127DD2 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75BB1EDE157F45C0AD334DF0ABDEDDC /* disclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3864BCD4CB66C8B716542B44341F1B2E /* disclosure@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		228DF70EC7866CAB637F5C48F20905FE /* PBXContainerItemProxy */ = {
+		158B20579ADAFEED42DC0D404EECE440 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B93ED40BB8AB0DAAE8115ACA0CC4C882;
+			remoteGlobalIDString = FE0EA4A854B31B97AB23A6135FCBFABD;
+			remoteInfo = CircleMenu;
+		};
+		5DD07E76B0A78E13800EEE5347C0C4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF70ABCD3D525E07F05D3D920A26BE8;
 			remoteInfo = SkyFloatingLabelTextField;
 		};
 		8652AACADFD9BE579A57C240B588A570 /* PBXContainerItemProxy */ = {
@@ -57,7 +70,7 @@
 			remoteGlobalIDString = 8C2E09E036949D84633EB63D09D7250C;
 			remoteInfo = "AnimatedTextInput-AnimatedTextInput";
 		};
-		F75FE7B540A153B0FBA58D066B701005 /* PBXContainerItemProxy */ = {
+		AAA06638196897565A812229C7030B9E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -68,89 +81,99 @@
 
 /* Begin PBXFileReference section */
 		0391778C5D6AA3A57C33441006F410E7 /* Pods-AroundMe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AroundMe.modulemap"; sourceTree = "<group>"; };
-		0469D4BA9784EB26C96D3F9C1F7C23D6 /* AnimatedTextInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextInput.swift; path = AnimatedTextInput/Classes/AnimatedTextInput.swift; sourceTree = "<group>"; };
-		056C072380DFD7EF611666BD02E9E331 /* ResourceBundle-AnimatedTextInput-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AnimatedTextInput-Info.plist"; sourceTree = "<group>"; };
-		0A9B48591B074BDDEC366482239CA8E9 /* disclosure.png */ = {isa = PBXFileReference; includeInIndex = 1; name = disclosure.png; path = AnimatedTextInput/Assets/disclosure.png; sourceTree = "<group>"; };
+		05B4D81CA74BD357D6AA591FB4D38478 /* cm_icon_input_eye_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_selected@2x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_selected@2x.png"; sourceTree = "<group>"; };
+		094025B9A81C53427FBD83360F7EB8B0 /* Pods_AroundMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AroundMeTests.framework; path = "Pods-AroundMeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1B79BF6CE0D5BB02C33D6C4FAEFF30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FA8CF1A79102BBCF656F9DB489A39CF /* Pods_AroundMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AroundMe.framework; path = "Pods-AroundMe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA8C40143F13310DEDD765817C37AB7 /* CircleMenuLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuLoader.swift; path = CircleMenuLib/CircleMenuLoader/CircleMenuLoader.swift; sourceTree = "<group>"; };
+		0FEA3E8492AA333BC27C24B9BF2250B9 /* AnimatedTextInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedTextInput.framework; path = AnimatedTextInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		105C9A019306C297AB084A67F9601C3C /* Pods-AroundMeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AroundMeUITests-dummy.m"; sourceTree = "<group>"; };
 		106DABADA84C0473065E986208E41FCC /* Pods-AroundMe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AroundMe-umbrella.h"; sourceTree = "<group>"; };
-		1263B8B19BE9B21876519B1C5CCD1FDF /* AnimatedTextInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedTextInput-dummy.m"; sourceTree = "<group>"; };
-		1A0C3CC95EFCEBD8AF1024ADCCA40C10 /* disclosure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "disclosure@2x.png"; path = "AnimatedTextInput/Assets/disclosure@2x.png"; sourceTree = "<group>"; };
-		1DF8203BEF3CC27D98A6FA8F3B383E48 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21A5DB4C083CC70221545D505F691E09 /* Pods_AroundMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AroundMeTests.framework; path = "Pods-AroundMeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13446C5444951CD275D61F031D32DF3F /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CAED8DEA83E8E51FD56954D7FDECFF /* AnimatedTextInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTextInput-umbrella.h"; sourceTree = "<group>"; };
+		195097080C4CCDC1C16268DDB6CF3616 /* CircleMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-prefix.pch"; sourceTree = "<group>"; };
+		232C47F71BD95F1A4CFA8895D39104C9 /* Pods_AroundMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AroundMeUITests.framework; path = "Pods-AroundMeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B5D300A8725DBD965AE578DE91EF26 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		27E3D225F5698D6E75F7540725B3987C /* Pods-AroundMeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AroundMeTests-umbrella.h"; sourceTree = "<group>"; };
-		2803624483BD99A249FE3E3231082BB2 /* AnimatedTextInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTextInput-prefix.pch"; sourceTree = "<group>"; };
-		286C036D77F7EBF7DCC2A8AC3854BA2A /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = AnimatedTextInput/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
+		282B47DB6971850C8F117F2318127DD2 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		2FB83BBCCFAF76FD943CA09D6108C6B1 /* AnimatedTextInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextInput.swift; path = AnimatedTextInput/Classes/AnimatedTextInput.swift; sourceTree = "<group>"; };
+		375F6A743FB2EC0D650282E5D14CD0B6 /* AnimatedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextField.swift; path = AnimatedTextInput/Classes/AnimatedTextField.swift; sourceTree = "<group>"; };
+		3864BCD4CB66C8B716542B44341F1B2E /* disclosure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "disclosure@2x.png"; path = "AnimatedTextInput/Assets/disclosure@2x.png"; sourceTree = "<group>"; };
 		3A1B5BAC80C2F2E437AA9D3FE765BB01 /* Pods-AroundMe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AroundMe-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3B5FB413DA31933331F2E6232C08C845 /* Pods-AroundMeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AroundMeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3DD83B60393873B93535369CB6198F9F /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
-		3F391C99094A01C42BF7D0CCCF875CF4 /* AnimatedTextInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTextInput-umbrella.h"; sourceTree = "<group>"; };
+		3F9030CA97BC51A3BA6494BF42378FBF /* ResourceBundle-AnimatedTextInput-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AnimatedTextInput-Info.plist"; sourceTree = "<group>"; };
 		41CB03224B78BED66C10557F2B8E0719 /* Pods-AroundMe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AroundMe-frameworks.sh"; sourceTree = "<group>"; };
 		42EE9B2AEC73C96B700C420DBFE92518 /* Pods-AroundMeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AroundMeTests-resources.sh"; sourceTree = "<group>"; };
-		4D3F9308D3DA9AC50D75504AC66BEEB1 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		4447ACA5BBC114E70AE50388871612A4 /* CircleMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-umbrella.h"; sourceTree = "<group>"; };
+		478E7C11D781618397F725D7728BAE8E /* AnimatedTextInput.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AnimatedTextInput.bundle; path = AnimatedTextInput.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAFE7333ECB9AFD6FF11381ACF6224C /* AnimatedLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedLine.swift; path = AnimatedTextInput/Classes/AnimatedLine.swift; sourceTree = "<group>"; };
+		4B150CE3BD34B6E50D238820CF02803C /* CircleMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuButton.swift; path = CircleMenuLib/CircleMenuButton/CircleMenuButton.swift; sourceTree = "<group>"; };
+		584A2958DF2B685617EF43AF366FA0EF /* CircleMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenu.swift; path = CircleMenuLib/CircleMenu.swift; sourceTree = "<group>"; };
 		5974CA912C7C2C2319823E2C582A093E /* Pods-AroundMe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AroundMe-dummy.m"; sourceTree = "<group>"; };
-		5F2F305708893C96D8AE1E7DCB891335 /* AnimatedTextInput.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AnimatedTextInput.bundle; path = AnimatedTextInput.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FE40B729DEDCC9E0B15AE6904274917 /* AnimatedTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextView.swift; path = AnimatedTextInput/Classes/AnimatedTextView.swift; sourceTree = "<group>"; };
-		6287F8BFBB9BED0BC4135BC3BDAA2F2D /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		5CE18ED5B7D93907C00AEA49B6FE4C72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1765C1496FDF6E3F6567F6B2410AFB /* Pods_AroundMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AroundMe.framework; path = "Pods-AroundMe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E56B3AE2DBB6F6710F7E132B5586E09 /* AnimatedTextInputStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextInputStyle.swift; path = AnimatedTextInput/Classes/AnimatedTextInputStyle.swift; sourceTree = "<group>"; };
+		6463C04C433C6A989CA9FED8543676E7 /* cm_icon_input_eye_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_normal@2x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_normal@2x.png"; sourceTree = "<group>"; };
 		69E699F5783CA8455D8B98382FF14C9E /* Pods-AroundMeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AroundMeTests.modulemap"; sourceTree = "<group>"; };
-		6DB096C8489FE5A01886DC686A234598 /* AnimatedTextInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedTextInput.framework; path = AnimatedTextInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F4444D4690EE11649C87026CA2FEECC /* AnimatedTextInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnimatedTextInput.modulemap; sourceTree = "<group>"; };
+		6FF3DBDBE32039299A0F1795E992AFA4 /* CircleMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CircleMenu.modulemap; sourceTree = "<group>"; };
 		705890A9EF9E6356116D6F86D72C914E /* Pods-AroundMe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AroundMe-acknowledgements.plist"; sourceTree = "<group>"; };
 		706095FAA637D757BAFF476DA4708F17 /* Pods-AroundMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AroundMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71E1382FBEAD69449A8AA3542B68CC45 /* AnimatedTextInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnimatedTextInput.modulemap; sourceTree = "<group>"; };
 		75CB995D9F0358216EF93CAF638DB609 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76C11117FD93A544E0A1B29DEF6BA717 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		7EFF9B8B9E896E11AF5F004125D7D4D1 /* cm_icon_input_eye_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_normal@3x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_normal@3x.png"; sourceTree = "<group>"; };
-		7FF422C083E240DA9E282621BB7E47CE /* cm_icon_input_eye_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_selected@2x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_selected@2x.png"; sourceTree = "<group>"; };
-		85DC5C85A1A1C4CDB050FA0D47800489 /* AnimatedTextInput.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedTextInput.xcconfig; sourceTree = "<group>"; };
+		77F931DC4699CC43483F4EAE3C55BE60 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		79DD254B2729DE7F6302CB0914C031DF /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = AnimatedTextInput/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
+		7A24EA7AA10F75932085191CC50091CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2FFDAB70BE285212A364E65748EC02 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 		8810BAC5F88D8E6D5F55214DBDB7D512 /* Pods-AroundMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AroundMe.debug.xcconfig"; sourceTree = "<group>"; };
-		8A630392116A34C20D33645EB0190602 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		8CEECEDCC77917EBF11C24CFE185CE55 /* Pods-AroundMeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AroundMeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D36E153B74A89FA3E9ABA61433A1D64 /* Pods_AroundMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AroundMeUITests.framework; path = "Pods-AroundMeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FCB6B16D6C3822E7FF906DB33296D1 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		93242B243EE27923CB3ED9BD609ADA59 /* Pods-AroundMeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AroundMeUITests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9708807DB7A92A2C54536FC3FA747010 /* cm_icon_input_eye_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_normal@2x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_normal@2x.png"; sourceTree = "<group>"; };
+		96EF2C5E5A7707769A1DBCCECD45E69F /* AnimatedTextInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTextInput-prefix.pch"; sourceTree = "<group>"; };
 		97E886B0C3FE797F8115ED5D3BC27433 /* Pods-AroundMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AroundMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9A4562E1CB159233E4998DA4C7FF425C /* AnimatedLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedLine.swift; path = AnimatedTextInput/Classes/AnimatedLine.swift; sourceTree = "<group>"; };
-		9BDE6C0973BAED19F2E153AA68E340B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A243123B73DD5E8C1FA3F4F423694395 /* AnimatedTextInputStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextInputStyle.swift; path = AnimatedTextInput/Classes/AnimatedTextInputStyle.swift; sourceTree = "<group>"; };
+		9F6DA9440596A7335765B6D4CDD5BB87 /* AnimatedTextInputFieldConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextInputFieldConfigurator.swift; path = AnimatedTextInput/Classes/AnimatedTextInputFieldConfigurator.swift; sourceTree = "<group>"; };
 		A9B12B457F9AC3BA1F2A0B3EC4CA1CD3 /* Pods-AroundMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AroundMeTests.release.xcconfig"; sourceTree = "<group>"; };
-		AA2E07EFA662F05BED591362FF03D721 /* AnimatedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextField.swift; path = AnimatedTextInput/Classes/AnimatedTextField.swift; sourceTree = "<group>"; };
+		AE00BA5A007A237D77E6FFFBCAA37BC8 /* CircleMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleMenu.framework; path = CircleMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25AA8AB7B2F7A1132C4BBB7A714B007 /* AnimatedTextInput.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedTextInput.xcconfig; sourceTree = "<group>"; };
 		B3BE98B151DD3BCA8348814B60771DD2 /* Pods-AroundMe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AroundMe-resources.sh"; sourceTree = "<group>"; };
+		B4030340D85F9EC40097C5327DD6435E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B624873CC006D5A98734FA8B982CEC /* Pods-AroundMeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AroundMeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFD7987DE9FEA7928C1D31C4445F2965 /* cm_icon_input_eye_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_selected@3x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_selected@3x.png"; sourceTree = "<group>"; };
+		C3F272C847FCF1B575A699187B9EF8CC /* AnimatedTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextView.swift; path = AnimatedTextInput/Classes/AnimatedTextView.swift; sourceTree = "<group>"; };
+		C51EEECF34527B8BBB4CD926F38F715D /* CircleMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleMenu.xcconfig; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF2F231219E5CBED68478D24CBEEDEAE /* AnimatedTextInputFieldConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTextInputFieldConfigurator.swift; path = AnimatedTextInput/Classes/AnimatedTextInputFieldConfigurator.swift; sourceTree = "<group>"; };
-		D27350293A5A8075C9EC38CE8435B8D9 /* cm_icon_input_eye_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_selected@3x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_selected@3x.png"; sourceTree = "<group>"; };
-		D3DC4FCD0F89FFE005DCCB34866C3871 /* disclosure@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "disclosure@3x.png"; path = "AnimatedTextInput/Assets/disclosure@3x.png"; sourceTree = "<group>"; };
+		CD6AF56782F289529A14D43CA8C72128 /* disclosure.png */ = {isa = PBXFileReference; includeInIndex = 1; name = disclosure.png; path = AnimatedTextInput/Assets/disclosure.png; sourceTree = "<group>"; };
+		CF4B67552EEF3E842E7105F29EA2E3BF /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		D001A1C37FBD60E75EE08EE0C0E32A9B /* disclosure@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "disclosure@3x.png"; path = "AnimatedTextInput/Assets/disclosure@3x.png"; sourceTree = "<group>"; };
+		D309851A22B29A3B663A3C677DCD62FC /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
 		D7936A1B2B90C4E5264EF304C4BEB38D /* Pods-AroundMeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AroundMeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBDA0C2564842691FDFC8AF89A976C36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6E8DE06B44917F1BF73645884F3965 /* AnimatedTextInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedTextInput-dummy.m"; sourceTree = "<group>"; };
 		DF0AAAAA59B5DE0B5A8945AB36875D7F /* Pods-AroundMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AroundMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2FDAFDEB973339AEBEFF9D48438D9C7 /* Pods-AroundMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AroundMe.release.xcconfig"; sourceTree = "<group>"; };
-		E70C1ADCA778F19CA0437C94FDC6E485 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
 		E7B96E1F6AF223291E08D67A7E3F902A /* Pods-AroundMeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AroundMeUITests-umbrella.h"; sourceTree = "<group>"; };
 		E7EFB4E19355EA9E63A603F5D7EA412A /* Pods-AroundMeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AroundMeTests-dummy.m"; sourceTree = "<group>"; };
-		EAB6C8444A12F2ADCD31BA2771419439 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
 		EB2B6DEB097E07633E6978886CA06525 /* Pods-AroundMeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AroundMeUITests.modulemap"; sourceTree = "<group>"; };
-		F0F09564B845F1C2FDC760AF91B5F2F0 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		F27B56DABF42A63C7702F09AD2CACA13 /* CircleMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleMenu-dummy.m"; sourceTree = "<group>"; };
+		F32A96BDBB7AC133E427C3D5255D429D /* cm_icon_input_eye_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "cm_icon_input_eye_normal@3x.png"; path = "AnimatedTextInput/Assets/cm_icon_input_eye_normal@3x.png"; sourceTree = "<group>"; };
 		F32B694DF4A78348F4D2BD6CC6582432 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F81B7C1E8137969832A3FCD0A5965282 /* Pods-AroundMeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AroundMeTests-frameworks.sh"; sourceTree = "<group>"; };
+		F92AC0E7EC8D228D58D9E57448926371 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
 		FF139391A07B4EB127CD538C2343FA17 /* Pods-AroundMeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AroundMeUITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D7DA7E7522B5215BD13BDA279FADE1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E438F9E9DB52A68935B525F3C63B2482 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		567272B5B642A2B7FF6C2A16E146917E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B3EB64120CCF71ACFD11A3F1BF7A046C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCE19558972DA67A65CA3F0B12DB2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C99DBD41139574C22E2354F63F7FE5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,11 +184,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD23FAFA734CEDD10BBD68B028C6C6E2 /* Frameworks */ = {
+		A3835794FE7F9B66AA611A44AB26BF02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1186C5682FAFB37E4385A320319FF2D1 /* Foundation.framework in Frameworks */,
+				047A0780E925E11C35F509B531C46679 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8299FAD41A119C1968CF5B82234FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7C89C6A764B252DB36BBEBB834E944 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,21 +219,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A4327918D8571AE7239C5D9874A06D2 /* AnimatedTextInput */ = {
+		005ABCECD2EE74154A80FB64164D03E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A4562E1CB159233E4998DA4C7FF425C /* AnimatedLine.swift */,
-				AA2E07EFA662F05BED591362FF03D721 /* AnimatedTextField.swift */,
-				0469D4BA9784EB26C96D3F9C1F7C23D6 /* AnimatedTextInput.swift */,
-				CF2F231219E5CBED68478D24CBEEDEAE /* AnimatedTextInputFieldConfigurator.swift */,
-				A243123B73DD5E8C1FA3F4F423694395 /* AnimatedTextInputStyle.swift */,
-				5FE40B729DEDCC9E0B15AE6904274917 /* AnimatedTextView.swift */,
-				286C036D77F7EBF7DCC2A8AC3854BA2A /* UIViewExtensions.swift */,
-				BAAED9E572AEA58BDEEE8EA02377FE01 /* Resources */,
-				86EFBBCD40E243C6239B11E00B7420D4 /* Support Files */,
+				478E7C11D781618397F725D7728BAE8E /* AnimatedTextInput.bundle */,
+				0FEA3E8492AA333BC27C24B9BF2250B9 /* AnimatedTextInput.framework */,
+				AE00BA5A007A237D77E6FFFBCAA37BC8 /* CircleMenu.framework */,
+				5E1765C1496FDF6E3F6567F6B2410AFB /* Pods_AroundMe.framework */,
+				094025B9A81C53427FBD83360F7EB8B0 /* Pods_AroundMeTests.framework */,
+				232C47F71BD95F1A4CFA8895D39104C9 /* Pods_AroundMeUITests.framework */,
+				13446C5444951CD275D61F031D32DF3F /* SkyFloatingLabelTextField.framework */,
 			);
-			name = AnimatedTextInput;
-			path = AnimatedTextInput;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8CB12653AE0AD5EFFA6AAE682563A4 /* CircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				584A2958DF2B685617EF43AF366FA0EF /* CircleMenu.swift */,
+				4B150CE3BD34B6E50D238820CF02803C /* CircleMenuButton.swift */,
+				0BA8C40143F13310DEDD765817C37AB7 /* CircleMenuLoader.swift */,
+				F2178199B8B5A2EF75937CBEB19192DD /* Support Files */,
+			);
+			name = CircleMenu;
+			path = CircleMenu;
+			sourceTree = "<group>";
+		};
+		14C3C5F9DC5161A06666F50338FB2CE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED6A1010CA2D3890B3E1ED9D3F03514E /* AnimatedTextInput */,
+				0A8CB12653AE0AD5EFFA6AAE682563A4 /* CircleMenu */,
+				A11CCFCD1D48E892BC13382CF1229B22 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		31296B42596A74F6DD84E8740F2DCFF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E1382FBEAD69449A8AA3542B68CC45 /* AnimatedTextInput.modulemap */,
+				B25AA8AB7B2F7A1132C4BBB7A714B007 /* AnimatedTextInput.xcconfig */,
+				DE6E8DE06B44917F1BF73645884F3965 /* AnimatedTextInput-dummy.m */,
+				96EF2C5E5A7707769A1DBCCECD45E69F /* AnimatedTextInput-prefix.pch */,
+				18CAED8DEA83E8E51FD56954D7FDECFF /* AnimatedTextInput-umbrella.h */,
+				B4030340D85F9EC40097C5327DD6435E /* Info.plist */,
+				3F9030CA97BC51A3BA6494BF42378FBF /* ResourceBundle-AnimatedTextInput-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedTextInput";
 			sourceTree = "<group>";
 		};
 		54906CB5A3352F8F75DDE3E751C0AA76 /* Pods-AroundMeUITests */ = {
@@ -221,6 +286,20 @@
 			);
 			name = "Pods-AroundMeUITests";
 			path = "Target Support Files/Pods-AroundMeUITests";
+			sourceTree = "<group>";
+		};
+		578A77E7D158B09B9A5B78F4F93650FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE18ED5B7D93907C00AEA49B6FE4C72 /* Info.plist */,
+				D309851A22B29A3B663A3C677DCD62FC /* SkyFloatingLabelTextField.modulemap */,
+				F92AC0E7EC8D228D58D9E57448926371 /* SkyFloatingLabelTextField.xcconfig */,
+				77F931DC4699CC43483F4EAE3C55BE60 /* SkyFloatingLabelTextField-dummy.m */,
+				CF4B67552EEF3E842E7105F29EA2E3BF /* SkyFloatingLabelTextField-prefix.pch */,
+				282B47DB6971850C8F117F2318127DD2 /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
 			sourceTree = "<group>";
 		};
 		6CBBEA39E798FBFF6752E87BBAA66059 /* Pods-AroundMe */ = {
@@ -254,66 +333,36 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FE0A1BB524ADBDDC07A9FF6069B5539A /* Pods */,
-				A2E441454E01D8C2FFB3023654CF3B88 /* Products */,
+				14C3C5F9DC5161A06666F50338FB2CE0 /* Pods */,
+				005ABCECD2EE74154A80FB64164D03E3 /* Products */,
 				F9973BDDEE17761B1DD726230C0B86A1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86EFBBCD40E243C6239B11E00B7420D4 /* Support Files */ = {
+		99D4B7B19C46DE89190240C6EDC07268 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6F4444D4690EE11649C87026CA2FEECC /* AnimatedTextInput.modulemap */,
-				85DC5C85A1A1C4CDB050FA0D47800489 /* AnimatedTextInput.xcconfig */,
-				1263B8B19BE9B21876519B1C5CCD1FDF /* AnimatedTextInput-dummy.m */,
-				2803624483BD99A249FE3E3231082BB2 /* AnimatedTextInput-prefix.pch */,
-				3F391C99094A01C42BF7D0CCCF875CF4 /* AnimatedTextInput-umbrella.h */,
-				DBDA0C2564842691FDFC8AF89A976C36 /* Info.plist */,
-				056C072380DFD7EF611666BD02E9E331 /* ResourceBundle-AnimatedTextInput-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AnimatedTextInput";
-			sourceTree = "<group>";
-		};
-		9B097AB6DB3E7D2DA931BB39ECBC9A8C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9BDE6C0973BAED19F2E153AA68E340B2 /* Info.plist */,
-				8A630392116A34C20D33645EB0190602 /* SkyFloatingLabelTextField.modulemap */,
-				F0F09564B845F1C2FDC760AF91B5F2F0 /* SkyFloatingLabelTextField.xcconfig */,
-				EAB6C8444A12F2ADCD31BA2771419439 /* SkyFloatingLabelTextField-dummy.m */,
-				3DD83B60393873B93535369CB6198F9F /* SkyFloatingLabelTextField-prefix.pch */,
-				4D3F9308D3DA9AC50D75504AC66BEEB1 /* SkyFloatingLabelTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SkyFloatingLabelTextField";
-			sourceTree = "<group>";
-		};
-		A2E441454E01D8C2FFB3023654CF3B88 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F2F305708893C96D8AE1E7DCB891335 /* AnimatedTextInput.bundle */,
-				6DB096C8489FE5A01886DC686A234598 /* AnimatedTextInput.framework */,
-				0FA8CF1A79102BBCF656F9DB489A39CF /* Pods_AroundMe.framework */,
-				21A5DB4C083CC70221545D505F691E09 /* Pods_AroundMeTests.framework */,
-				8D36E153B74A89FA3E9ABA61433A1D64 /* Pods_AroundMeUITests.framework */,
-				1DF8203BEF3CC27D98A6FA8F3B383E48 /* SkyFloatingLabelTextField.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BAAED9E572AEA58BDEEE8EA02377FE01 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9708807DB7A92A2C54536FC3FA747010 /* cm_icon_input_eye_normal@2x.png */,
-				7EFF9B8B9E896E11AF5F004125D7D4D1 /* cm_icon_input_eye_normal@3x.png */,
-				7FF422C083E240DA9E282621BB7E47CE /* cm_icon_input_eye_selected@2x.png */,
-				D27350293A5A8075C9EC38CE8435B8D9 /* cm_icon_input_eye_selected@3x.png */,
-				0A9B48591B074BDDEC366482239CA8E9 /* disclosure.png */,
-				1A0C3CC95EFCEBD8AF1024ADCCA40C10 /* disclosure@2x.png */,
-				D3DC4FCD0F89FFE005DCCB34866C3871 /* disclosure@3x.png */,
+				6463C04C433C6A989CA9FED8543676E7 /* cm_icon_input_eye_normal@2x.png */,
+				F32A96BDBB7AC133E427C3D5255D429D /* cm_icon_input_eye_normal@3x.png */,
+				05B4D81CA74BD357D6AA591FB4D38478 /* cm_icon_input_eye_selected@2x.png */,
+				BFD7987DE9FEA7928C1D31C4445F2965 /* cm_icon_input_eye_selected@3x.png */,
+				CD6AF56782F289529A14D43CA8C72128 /* disclosure.png */,
+				3864BCD4CB66C8B716542B44341F1B2E /* disclosure@2x.png */,
+				D001A1C37FBD60E75EE08EE0C0E32A9B /* disclosure@3x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		A11CCFCD1D48E892BC13382CF1229B22 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				23B5D300A8725DBD965AE578DE91EF26 /* SkyFloatingLabelTextField.swift */,
+				90FCB6B16D6C3822E7FF906DB33296D1 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				7D2FFDAB70BE285212A364E65748EC02 /* UITextField+fixCaretPosition.swift */,
+				578A77E7D158B09B9A5B78F4F93650FC /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -342,16 +391,35 @@
 			path = "Target Support Files/Pods-AroundMeTests";
 			sourceTree = "<group>";
 		};
-		CA800A90F3382D4242A8E872235B3F25 /* SkyFloatingLabelTextField */ = {
+		ED6A1010CA2D3890B3E1ED9D3F03514E /* AnimatedTextInput */ = {
 			isa = PBXGroup;
 			children = (
-				6287F8BFBB9BED0BC4135BC3BDAA2F2D /* SkyFloatingLabelTextField.swift */,
-				E70C1ADCA778F19CA0437C94FDC6E485 /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				76C11117FD93A544E0A1B29DEF6BA717 /* UITextField+fixCaretPosition.swift */,
-				9B097AB6DB3E7D2DA931BB39ECBC9A8C /* Support Files */,
+				4AAFE7333ECB9AFD6FF11381ACF6224C /* AnimatedLine.swift */,
+				375F6A743FB2EC0D650282E5D14CD0B6 /* AnimatedTextField.swift */,
+				2FB83BBCCFAF76FD943CA09D6108C6B1 /* AnimatedTextInput.swift */,
+				9F6DA9440596A7335765B6D4CDD5BB87 /* AnimatedTextInputFieldConfigurator.swift */,
+				5E56B3AE2DBB6F6710F7E132B5586E09 /* AnimatedTextInputStyle.swift */,
+				C3F272C847FCF1B575A699187B9EF8CC /* AnimatedTextView.swift */,
+				79DD254B2729DE7F6302CB0914C031DF /* UIViewExtensions.swift */,
+				99D4B7B19C46DE89190240C6EDC07268 /* Resources */,
+				31296B42596A74F6DD84E8740F2DCFF1 /* Support Files */,
 			);
-			name = SkyFloatingLabelTextField;
-			path = SkyFloatingLabelTextField;
+			name = AnimatedTextInput;
+			path = AnimatedTextInput;
+			sourceTree = "<group>";
+		};
+		F2178199B8B5A2EF75937CBEB19192DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FF3DBDBE32039299A0F1795E992AFA4 /* CircleMenu.modulemap */,
+				C51EEECF34527B8BBB4CD926F38F715D /* CircleMenu.xcconfig */,
+				F27B56DABF42A63C7702F09AD2CACA13 /* CircleMenu-dummy.m */,
+				195097080C4CCDC1C16268DDB6CF3616 /* CircleMenu-prefix.pch */,
+				4447ACA5BBC114E70AE50388871612A4 /* CircleMenu-umbrella.h */,
+				7A24EA7AA10F75932085191CC50091CD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleMenu";
 			sourceTree = "<group>";
 		};
 		F9973BDDEE17761B1DD726230C0B86A1 /* Targets Support Files */ = {
@@ -362,15 +430,6 @@
 				54906CB5A3352F8F75DDE3E751C0AA76 /* Pods-AroundMeUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FE0A1BB524ADBDDC07A9FF6069B5539A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3A4327918D8571AE7239C5D9874A06D2 /* AnimatedTextInput */,
-				CA800A90F3382D4242A8E872235B3F25 /* SkyFloatingLabelTextField */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,11 +443,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60E75F959EBB9352FD5F2B6364F8D86C /* Headers */ = {
+		4DCD29ED93F6CFC863848D62944817B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF1ABB3570F81A8C5AECEC22F7DE058 /* Pods-AroundMe-umbrella.h in Headers */,
+				126497559A13DBF44A4772FE59850ACA /* CircleMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C4CF5F975B76B2A7E385F52E459DFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF40BA0DA48295217A5E3351BB487AA /* Pods-AroundMe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831836B7E1AAF86BB82B06CA476044D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F1160ED7F706251D90F13D63D4DA8D /* SkyFloatingLabelTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,14 +472,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB22F57C9B275781903EAC0DE1014D77 /* AnimatedTextInput-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C04217F5BA0E4251674622A8AA0517AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A47A21B5E459D9A044729BC0BF22DBD0 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +500,7 @@
 			);
 			name = "Pods-AroundMeUITests";
 			productName = "Pods-AroundMeUITests";
-			productReference = 8D36E153B74A89FA3E9ABA61433A1D64 /* Pods_AroundMeUITests.framework */;
+			productReference = 232C47F71BD95F1A4CFA8895D39104C9 /* Pods_AroundMeUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		29D8DB41194AB47BA5E0F5FE96529B16 /* AnimatedTextInput */ = {
@@ -452,26 +519,7 @@
 			);
 			name = AnimatedTextInput;
 			productName = AnimatedTextInput;
-			productReference = 6DB096C8489FE5A01886DC686A234598 /* AnimatedTextInput.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5DBEA6501263D6D2ABA3DDAEB491F87E /* Pods-AroundMe */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF36E1BC4F1E312B656EC7EAF10B4450 /* Build configuration list for PBXNativeTarget "Pods-AroundMe" */;
-			buildPhases = (
-				9D06FC68FE66D51C4ECAD39FA998DB45 /* Sources */,
-				3D7DA7E7522B5215BD13BDA279FADE1C /* Frameworks */,
-				60E75F959EBB9352FD5F2B6364F8D86C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58778BB8A31B9E70E6C8692A2586B80C /* PBXTargetDependency */,
-				EFC10BC309B6F1ECB26A896F8A1D65B0 /* PBXTargetDependency */,
-			);
-			name = "Pods-AroundMe";
-			productName = "Pods-AroundMe";
-			productReference = 0FA8CF1A79102BBCF656F9DB489A39CF /* Pods_AroundMe.framework */;
+			productReference = 0FEA3E8492AA333BC27C24B9BF2250B9 /* AnimatedTextInput.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8C2E09E036949D84633EB63D09D7250C /* AnimatedTextInput-AnimatedTextInput */ = {
@@ -488,16 +536,36 @@
 			);
 			name = "AnimatedTextInput-AnimatedTextInput";
 			productName = "AnimatedTextInput-AnimatedTextInput";
-			productReference = 5F2F305708893C96D8AE1E7DCB891335 /* AnimatedTextInput.bundle */;
+			productReference = 478E7C11D781618397F725D7728BAE8E /* AnimatedTextInput.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		B93ED40BB8AB0DAAE8115ACA0CC4C882 /* SkyFloatingLabelTextField */ = {
+		94DC88414AB4C155C15A19827B26300F /* Pods-AroundMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C194CC83EA3823B6438518734CE038FA /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildConfigurationList = 2D1F6512B4E25C543A79D34CB0446D6A /* Build configuration list for PBXNativeTarget "Pods-AroundMe" */;
 			buildPhases = (
-				ABE6EF8B94949070FA1F00B14113E98E /* Sources */,
-				DD23FAFA734CEDD10BBD68B028C6C6E2 /* Frameworks */,
-				C04217F5BA0E4251674622A8AA0517AD /* Headers */,
+				4F0BE0A3286BD6DD68D5215203F65E34 /* Sources */,
+				AC8299FAD41A119C1968CF5B82234FD8 /* Frameworks */,
+				58C4CF5F975B76B2A7E385F52E459DFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF3CA5E830CCDEF285499CB13BB2045 /* PBXTargetDependency */,
+				780806382A639261CF33BF21C4C8C9A8 /* PBXTargetDependency */,
+				9C37AB2D158FFB7EC816A690E99A7179 /* PBXTargetDependency */,
+			);
+			name = "Pods-AroundMe";
+			productName = "Pods-AroundMe";
+			productReference = 5E1765C1496FDF6E3F6567F6B2410AFB /* Pods_AroundMe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFF70ABCD3D525E07F05D3D920A26BE8 /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5734594B6873A45EC57E0D9C93B269 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				EC2AE2FA3A732442C1006CCB2D907707 /* Sources */,
+				8BCE19558972DA67A65CA3F0B12DB2AC /* Frameworks */,
+				831836B7E1AAF86BB82B06CA476044D1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -505,7 +573,7 @@
 			);
 			name = SkyFloatingLabelTextField;
 			productName = SkyFloatingLabelTextField;
-			productReference = 1DF8203BEF3CC27D98A6FA8F3B383E48 /* SkyFloatingLabelTextField.framework */;
+			productReference = 13446C5444951CD275D61F031D32DF3F /* SkyFloatingLabelTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F065EEB0E7BB28D4827A6E95504FB2B7 /* Pods-AroundMeTests */ = {
@@ -522,7 +590,24 @@
 			);
 			name = "Pods-AroundMeTests";
 			productName = "Pods-AroundMeTests";
-			productReference = 21A5DB4C083CC70221545D505F691E09 /* Pods_AroundMeTests.framework */;
+			productReference = 094025B9A81C53427FBD83360F7EB8B0 /* Pods_AroundMeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE0EA4A854B31B97AB23A6135FCBFABD /* CircleMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A40B397D803C8F1AFE1CFAC2F2ECE5B /* Build configuration list for PBXNativeTarget "CircleMenu" */;
+			buildPhases = (
+				473746D209B50441D33A0C746273C170 /* Sources */,
+				A3835794FE7F9B66AA611A44AB26BF02 /* Frameworks */,
+				4DCD29ED93F6CFC863848D62944817B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleMenu;
+			productName = CircleMenu;
+			productReference = AE00BA5A007A237D77E6FFFBCAA37BC8 /* CircleMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -542,16 +627,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A2E441454E01D8C2FFB3023654CF3B88 /* Products */;
+			productRefGroup = 005ABCECD2EE74154A80FB64164D03E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				29D8DB41194AB47BA5E0F5FE96529B16 /* AnimatedTextInput */,
 				8C2E09E036949D84633EB63D09D7250C /* AnimatedTextInput-AnimatedTextInput */,
-				5DBEA6501263D6D2ABA3DDAEB491F87E /* Pods-AroundMe */,
+				FE0EA4A854B31B97AB23A6135FCBFABD /* CircleMenu */,
+				94DC88414AB4C155C15A19827B26300F /* Pods-AroundMe */,
 				F065EEB0E7BB28D4827A6E95504FB2B7 /* Pods-AroundMeTests */,
 				1664D4C3C48F2C755D6583A0555A1DFD /* Pods-AroundMeUITests */,
-				B93ED40BB8AB0DAAE8115ACA0CC4C882 /* SkyFloatingLabelTextField */,
+				DFF70ABCD3D525E07F05D3D920A26BE8 /* SkyFloatingLabelTextField */,
 			);
 		};
 /* End PBXProject section */
@@ -590,22 +676,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D06FC68FE66D51C4ECAD39FA998DB45 /* Sources */ = {
+		473746D209B50441D33A0C746273C170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2919D752AD8350834776A4A6C043663B /* Pods-AroundMe-dummy.m in Sources */,
+				5E6D63929C555092395F0536F960D1C4 /* CircleMenu-dummy.m in Sources */,
+				CEC8FC4A3321340F48708DCECA1B0EB7 /* CircleMenu.swift in Sources */,
+				8F418BCF1151FB34F297F908475B048D /* CircleMenuButton.swift in Sources */,
+				3DD8CAA7CBB4F9B90855F31858D30924 /* CircleMenuLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABE6EF8B94949070FA1F00B14113E98E /* Sources */ = {
+		4F0BE0A3286BD6DD68D5215203F65E34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4786D88A67415447380B745C1E442C0B /* SkyFloatingLabelTextField-dummy.m in Sources */,
-				D93326684FB668EC0783DFBC90594036 /* SkyFloatingLabelTextField.swift in Sources */,
-				99B7E92D04CF65AE9314605CF760B8B2 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				D3A37D0988A2455A5EC60CD2B2741900 /* UITextField+fixCaretPosition.swift in Sources */,
+				40AA5F3BD824822FC3A3590A53DDF692 /* Pods-AroundMe-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,6 +717,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC2AE2FA3A732442C1006CCB2D907707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BAD6A3A2ACBF1976074F6DD282AA41 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				EA35B75051A416143D401FA828234553 /* SkyFloatingLabelTextField.swift in Sources */,
+				A84D21E7D8766771DE196A766D4EA4F9 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				1F41C8526E4AEB648B9D2DB53DF9A9D5 /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9C75242904195D3C280657BB3DEB650 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -642,11 +739,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		58778BB8A31B9E70E6C8692A2586B80C /* PBXTargetDependency */ = {
+		2BF3CA5E830CCDEF285499CB13BB2045 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnimatedTextInput;
 			target = 29D8DB41194AB47BA5E0F5FE96529B16 /* AnimatedTextInput */;
-			targetProxy = F75FE7B540A153B0FBA58D066B701005 /* PBXContainerItemProxy */;
+			targetProxy = AAA06638196897565A812229C7030B9E /* PBXContainerItemProxy */;
+		};
+		780806382A639261CF33BF21C4C8C9A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleMenu;
+			target = FE0EA4A854B31B97AB23A6135FCBFABD /* CircleMenu */;
+			targetProxy = 158B20579ADAFEED42DC0D404EECE440 /* PBXContainerItemProxy */;
 		};
 		9A7E4D8D6E4288B93C67B3124DC48BF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -654,329 +757,16 @@
 			target = 8C2E09E036949D84633EB63D09D7250C /* AnimatedTextInput-AnimatedTextInput */;
 			targetProxy = 8652AACADFD9BE579A57C240B588A570 /* PBXContainerItemProxy */;
 		};
-		EFC10BC309B6F1ECB26A896F8A1D65B0 /* PBXTargetDependency */ = {
+		9C37AB2D158FFB7EC816A690E99A7179 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkyFloatingLabelTextField;
-			target = B93ED40BB8AB0DAAE8115ACA0CC4C882 /* SkyFloatingLabelTextField */;
-			targetProxy = 228DF70EC7866CAB637F5C48F20905FE /* PBXContainerItemProxy */;
+			target = DFF70ABCD3D525E07F05D3D920A26BE8 /* SkyFloatingLabelTextField */;
+			targetProxy = 5DD07E76B0A78E13800EEE5347C0C4D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23E5A3C970DE9B44A4E78C7C886F4BA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2FDAFDEB973339AEBEFF9D48438D9C7 /* Pods-AroundMe.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AroundMe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AroundMe/Pods-AroundMe.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AroundMe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2520DF058730D65288BCC5FF04537621 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97E886B0C3FE797F8115ED5D3BC27433 /* Pods-AroundMeUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AroundMeUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AroundMeUITests/Pods-AroundMeUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AroundMeUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		498004DDC3B0C4656D94BDF7B3679254 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF0AAAAA59B5DE0B5A8945AB36875D7F /* Pods-AroundMeTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AroundMeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AroundMeTests/Pods-AroundMeTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AroundMeTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5DE58993B2714DEE1F41A9B49C70F784 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0F09564B845F1C2FDC760AF91B5F2F0 /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		673254EEAF0B5BF4596080C749645884 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		681E4A04C63443C1AEDA7B61AA9A86FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85DC5C85A1A1C4CDB050FA0D47800489 /* AnimatedTextInput.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AnimatedTextInput/AnimatedTextInput-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnimatedTextInput/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnimatedTextInput/AnimatedTextInput.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AnimatedTextInput;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6D5DF59C0277EEE0F25723272AD9ED7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 706095FAA637D757BAFF476DA4708F17 /* Pods-AroundMeUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AroundMeUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AroundMeUITests/Pods-AroundMeUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AroundMeUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DDA8946D19DDCE899006D4E2E317378 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8810BAC5F88D8E6D5F55214DBDB7D512 /* Pods-AroundMe.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AroundMe/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AroundMe/Pods-AroundMe.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AroundMe;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		96A64414F79760805DE2884C55A1F78A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0F09564B845F1C2FDC760AF91B5F2F0 /* SkyFloatingLabelTextField.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SkyFloatingLabelTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B8B5D7A313E0274407D5252E3E026896 /* Release */ = {
+		0AC7F211D68B14CAD2DB7349B3CDE037 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9B12B457F9AC3BA1F2A0B3EC4CA1CD3 /* Pods-AroundMeTests.release.xcconfig */;
 			buildSettings = {
@@ -993,7 +783,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AroundMeTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AroundMeTests/Pods-AroundMeTests.modulemap";
@@ -1011,24 +801,7 @@
 			};
 			name = Release;
 		};
-		C509134ED15E9FFDFD9F63AC37F1C433 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85DC5C85A1A1C4CDB050FA0D47800489 /* AnimatedTextInput.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnimatedTextInput";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/AnimatedTextInput/ResourceBundle-AnimatedTextInput-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = AnimatedTextInput;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1064,7 +837,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1072,9 +845,372 @@
 			};
 			name = Debug;
 		};
+		14067B0A34BDBC160D7AA7D1C971350E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706095FAA637D757BAFF476DA4708F17 /* Pods-AroundMeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AroundMeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AroundMeUITests/Pods-AroundMeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AroundMeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FA740C1B47190AF86653CEBF4C03FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8810BAC5F88D8E6D5F55214DBDB7D512 /* Pods-AroundMe.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AroundMe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AroundMe/Pods-AroundMe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AroundMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D4D4FCAB74E0024B3EC1CA0A9007250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0AAAAA59B5DE0B5A8945AB36875D7F /* Pods-AroundMeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AroundMeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AroundMeTests/Pods-AroundMeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AroundMeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		681E4A04C63443C1AEDA7B61AA9A86FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25AA8AB7B2F7A1132C4BBB7A714B007 /* AnimatedTextInput.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedTextInput/AnimatedTextInput-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedTextInput/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedTextInput/AnimatedTextInput.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AnimatedTextInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		698D09081504B7EE42A4AB057A533F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E886B0C3FE797F8115ED5D3BC27433 /* Pods-AroundMeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AroundMeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AroundMeUITests/Pods-AroundMeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AroundMeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A7E84AD85431B255DDF9E008B119112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51EEECF34527B8BBB4CD926F38F715D /* CircleMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleMenu/CircleMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleMenu/CircleMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CircleMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84F1DBF471D57303032B18CB41B36BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92AC0E7EC8D228D58D9E57448926371 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9A2F3ED0B68A1195679880CE8E925A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FDAFDEB973339AEBEFF9D48438D9C7 /* Pods-AroundMe.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AroundMe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AroundMe/Pods-AroundMe.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AroundMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C509134ED15E9FFDFD9F63AC37F1C433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25AA8AB7B2F7A1132C4BBB7A714B007 /* AnimatedTextInput.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnimatedTextInput";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/AnimatedTextInput/ResourceBundle-AnimatedTextInput-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AnimatedTextInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CAE8FDD430504B7C62259E83C1A075BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92AC0E7EC8D228D58D9E57448926371 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		EC56F87C056D577984ABF7BCBB317DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85DC5C85A1A1C4CDB050FA0D47800489 /* AnimatedTextInput.xcconfig */;
+			baseConfigurationReference = B25AA8AB7B2F7A1132C4BBB7A714B007 /* AnimatedTextInput.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1105,9 +1241,41 @@
 			};
 			name = Debug;
 		};
+		EE942BFACE3D50B34762630B2FC03323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51EEECF34527B8BBB4CD926F38F715D /* CircleMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CircleMenu/CircleMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleMenu/CircleMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CircleMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FD9B2D7D4354927EA915BB7D0F5BA38F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85DC5C85A1A1C4CDB050FA0D47800489 /* AnimatedTextInput.xcconfig */;
+			baseConfigurationReference = B25AA8AB7B2F7A1132C4BBB7A714B007 /* AnimatedTextInput.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AnimatedTextInput";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1125,11 +1293,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A40B397D803C8F1AFE1CFAC2F2ECE5B /* Build configuration list for PBXNativeTarget "CircleMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7E84AD85431B255DDF9E008B119112 /* Debug */,
+				EE942BFACE3D50B34762630B2FC03323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D1F6512B4E25C543A79D34CB0446D6A /* Build configuration list for PBXNativeTarget "Pods-AroundMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA740C1B47190AF86653CEBF4C03FB4 /* Debug */,
+				B9A2F3ED0B68A1195679880CE8E925A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
-				673254EEAF0B5BF4596080C749645884 /* Release */,
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1137,8 +1323,8 @@
 		4E397A911D1C810D0475840578C6B44D /* Build configuration list for PBXNativeTarget "Pods-AroundMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				498004DDC3B0C4656D94BDF7B3679254 /* Debug */,
-				B8B5D7A313E0274407D5252E3E026896 /* Release */,
+				2D4D4FCAB74E0024B3EC1CA0A9007250 /* Debug */,
+				0AC7F211D68B14CAD2DB7349B3CDE037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1164,26 +1350,17 @@
 		7FFA46F826EAD15DF39E407C9D4C95B9 /* Build configuration list for PBXNativeTarget "Pods-AroundMeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2520DF058730D65288BCC5FF04537621 /* Debug */,
-				6D5DF59C0277EEE0F25723272AD9ED7A /* Release */,
+				698D09081504B7EE42A4AB057A533F31 /* Debug */,
+				14067B0A34BDBC160D7AA7D1C971350E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C194CC83EA3823B6438518734CE038FA /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+		BB5734594B6873A45EC57E0D9C93B269 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96A64414F79760805DE2884C55A1F78A /* Debug */,
-				5DE58993B2714DEE1F41A9B49C70F784 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF36E1BC4F1E312B656EC7EAF10B4450 /* Build configuration list for PBXNativeTarget "Pods-AroundMe" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8DDA8946D19DDCE899006D4E2E317378 /* Debug */,
-				23E5A3C970DE9B44A4E78C7C886F4BA3 /* Release */,
+				CAE8FDD430504B7C62259E83C1A075BC /* Debug */,
+				84F1DBF471D57303032B18CB41B36BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CircleMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-AroundMe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,22 +52,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5DBEA6501263D6D2ABA3DDAEB491F87E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>8C2E09E036949D84633EB63D09D7250C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B93ED40BB8AB0DAAE8115ACA0CC4C882</key>
+		<key>94DC88414AB4C155C15A19827B26300F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF70ABCD3D525E07F05D3D920A26BE8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F065EEB0E7BB28D4827A6E95504FB2B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE0EA4A854B31B97AB23A6135FCBFABD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
