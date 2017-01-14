@@ -1,0 +1,15 @@
+PODS:
+  - AnimatedTextInput (0.4.0)
+  - SkyFloatingLabelTextField (2.0.0)
+
+DEPENDENCIES:
+  - AnimatedTextInput
+  - SkyFloatingLabelTextField (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  AnimatedTextInput: 283f38c106399b809b126f80af79fca9f4aabfd6
+  SkyFloatingLabelTextField: a81a0eaed2785d1599f11484c6ebc1c4eb5d1228
+
+PODFILE CHECKSUM: abf7b89b0f905aff1acf9f7fe3f9a662ecd66aeb
+
+COCOAPODS: 1.1.1
