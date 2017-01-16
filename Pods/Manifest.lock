@@ -1,18 +1,12 @@
 PODS:
-  - AnimatedTextInput (0.4.0)
-  - CircleMenu (2.0.1)
-  - SkyFloatingLabelTextField (2.0.0)
+  - SCLAlertView (0.7.0)
 
 DEPENDENCIES:
-  - AnimatedTextInput
-  - CircleMenu (~> 2.0.1)
-  - SkyFloatingLabelTextField (~> 2.0.0)
+  - SCLAlertView
 
 SPEC CHECKSUMS:
-  AnimatedTextInput: 283f38c106399b809b126f80af79fca9f4aabfd6
-  CircleMenu: a964e8b03aae58c84b40d5cf64630b62bef077eb
-  SkyFloatingLabelTextField: a81a0eaed2785d1599f11484c6ebc1c4eb5d1228
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
 
-PODFILE CHECKSUM: 0794acb987b940905e3bb00cb29cf7649ab66515
+PODFILE CHECKSUM: 4241facef73354e77c74f3617d1c60f62b75885a
 
 COCOAPODS: 1.1.1

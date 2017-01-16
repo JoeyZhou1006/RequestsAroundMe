@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3131161020925FBF76D2AD0A /* Pods_AroundMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AEF5CF476166A490829C0B /* Pods_AroundMeUITests.framework */; };
+		681DD0D21E2CAADC00BA04E8 /* RequestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681DD0D11E2CAADC00BA04E8 /* RequestsTableViewController.swift */; };
 		686BF1341E2A0D2E002B793D /* buttonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BF1331E2A0D2E002B793D /* buttonWithImage.swift */; };
 		68AF3AE71E279FCF00FFFC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF3AE61E279FCF00FFFC60 /* AppDelegate.swift */; };
 		68AF3AE91E279FCF00FFFC60 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF3AE81E279FCF00FFFC60 /* FirstViewController.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		15761BA7D9BD237C7F11B65A /* Pods-AroundMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AroundMeUITests/Pods-AroundMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		33A0C53EBBE9776495EDBA3C /* Pods-AroundMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AroundMeTests/Pods-AroundMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		681DD0D11E2CAADC00BA04E8 /* RequestsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsTableViewController.swift; sourceTree = "<group>"; };
 		686BF1331E2A0D2E002B793D /* buttonWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonWithImage.swift; sourceTree = "<group>"; };
 		68AF3AE31E279FCF00FFFC60 /* AroundMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AF3AE61E279FCF00FFFC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				68AF3AF41E279FD000FFFC60 /* Info.plist */,
 				68AF3B161E27B94600FFFC60 /* RequestFormViewController.swift */,
 				686BF1331E2A0D2E002B793D /* buttonWithImage.swift */,
+				681DD0D11E2CAADC00BA04E8 /* RequestsTableViewController.swift */,
 			);
 			path = AroundMe;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681DD0D21E2CAADC00BA04E8 /* RequestsTableViewController.swift in Sources */,
 				68AF3AE71E279FCF00FFFC60 /* AppDelegate.swift in Sources */,
 				68AF3B171E27B94600FFFC60 /* RequestFormViewController.swift in Sources */,
 				68AF3AE91E279FCF00FFFC60 /* FirstViewController.swift in Sources */,

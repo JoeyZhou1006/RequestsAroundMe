@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '29D8DB41194AB47BA5E0F5FE96529B16'
-               BlueprintName = 'AnimatedTextInput'
+               BlueprintIdentifier = 'FBA3E4A60B6475646DB77771BA37A120'
+               BlueprintName = 'SCLAlertView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'AnimatedTextInput.framework'>
+               BuildableName = 'SCLAlertView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

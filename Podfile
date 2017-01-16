@@ -6,9 +6,7 @@ target 'AroundMe' do
   use_frameworks!
 
   # Pods for AroundMe
- pod 'SkyFloatingLabelTextField', '~> 2.0.0'
- pod 'AnimatedTextInput'
- pod 'CircleMenu', '~> 2.0.1'
+ pod 'SCLAlertView'
 
   target 'AroundMeTests' do
     inherit! :search_paths
