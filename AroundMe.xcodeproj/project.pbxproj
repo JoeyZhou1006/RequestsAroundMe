@@ -18,6 +18,7 @@
 		68AF3AFE1E279FD000FFFC60 /* AroundMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF3AFD1E279FD000FFFC60 /* AroundMeTests.swift */; };
 		68AF3B091E279FD000FFFC60 /* AroundMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF3B081E279FD000FFFC60 /* AroundMeUITests.swift */; };
 		68AF3B171E27B94600FFFC60 /* RequestFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AF3B161E27B94600FFFC60 /* RequestFormViewController.swift */; };
+		68E092CA1E2D0DCC00C9584D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E092C91E2D0DCC00C9584D /* DataService.swift */; };
 		F1BC9014DF6BE5D9B3D43597 /* Pods_AroundMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77902E82A5BABDE181B773C /* Pods_AroundMeTests.framework */; };
 		F46D3AFE9A9ACDD31E192E89 /* Pods_AroundMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0A270C62FA90C95517FB83 /* Pods_AroundMe.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		68AF3B081E279FD000FFFC60 /* AroundMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundMeUITests.swift; sourceTree = "<group>"; };
 		68AF3B0A1E279FD000FFFC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68AF3B161E27B94600FFFC60 /* RequestFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFormViewController.swift; sourceTree = "<group>"; };
+		68E092C91E2D0DCC00C9584D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		6D4DCD4DA215999D96CCF308 /* Pods-AroundMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AroundMeUITests/Pods-AroundMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7154C7AD8DD415C922E91161 /* Pods-AroundMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AroundMeTests/Pods-AroundMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		78AEF5CF476166A490829C0B /* Pods_AroundMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AroundMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 				68AF3B161E27B94600FFFC60 /* RequestFormViewController.swift */,
 				686BF1331E2A0D2E002B793D /* buttonWithImage.swift */,
 				681DD0D11E2CAADC00BA04E8 /* RequestsTableViewController.swift */,
+				68E092C91E2D0DCC00C9584D /* DataService.swift */,
 			);
 			path = AroundMe;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				681DD0D21E2CAADC00BA04E8 /* RequestsTableViewController.swift in Sources */,
 				68AF3AE71E279FCF00FFFC60 /* AppDelegate.swift in Sources */,
 				68AF3B171E27B94600FFFC60 /* RequestFormViewController.swift in Sources */,
+				68E092CA1E2D0DCC00C9584D /* DataService.swift in Sources */,
 				68AF3AE91E279FCF00FFFC60 /* FirstViewController.swift in Sources */,
 				686BF1341E2A0D2E002B793D /* buttonWithImage.swift in Sources */,
 			);
